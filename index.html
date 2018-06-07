@@ -1,0 +1,377 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation-flex.css">
+    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/pricing.css">
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div id="offcanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-magellan>
+            <ul class="menu vertical" data-drilldown>
+              <li>
+                <a href="#tickets-container">Tickets</a>
+              </li>
+              <li>
+                <a href="#lineup-container">Lineup</a>
+                <ul class="vertical menu">
+                  <li>
+                    <a data-toggle-dia="friday" href="#lineup-container">Viernes</a>
+                  </li>
+                  <li>
+                    <a data-toggle-dia="sartuday" href="#lineup-container">Sábado</a>
+                  </li>
+                  <li>
+                    <a data-toggle-dia="sunday" href="#lineup-container">Domingo</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#info-container">Info</a>
+              </li>
+              <li>
+                <a href="#suscribete-container">Suscribete</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content="">
+          <!-- Social -->
+          <section id="social-container">
+            <div class="row align-center text-center">
+              <div class="column small-1">
+                <a href="#" target="_blank">
+                  <i class="fi-social-facebook"></i>
+                </a>
+              </div>
+              <div class="column small-1">
+                <a href="#" target="_blank">
+                  <i class="fi-social-twitter"></i>
+                </a>
+              </div>
+              <div class="column small-1">
+                <a href="#" target="_blank">
+                  <i class="fi-social-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- /Social -->
+
+          <!-- Logo -->
+          <section id="logo-container">
+            <div class="callout text-center">
+              <h1>Blasterpalooza</h1>
+            </div>
+          </section>
+          <!-- /Logo -->
+
+          <!-- Menu -->
+          <section id="scrollSticky" data-sticky-container>
+            <div class="data-sticky" id="sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+              <nav id="menu-container" data-magellan>
+                <ul class="menu show-for-small-only align-spaced">
+                  <li><a href="#" data-toggle="offcanvas">Menu</a></li>
+                </ul>
+                <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                  <li>
+                    <a href="#tickets-container">Tickets</a>
+                  </li>
+                  <li>
+                    <a href="#lineup-container">Lineup</a>
+                    <ul id="submenu-container" class="menu">
+                      <li>
+                        <a data-toggle-dia="friday" href="#lineup-container">Viernes</a>
+                      </li>
+                      <li>
+                        <a data-toggle-dia="sartuday" href="#lineup-container">Sábado</a>
+                      </li>
+                      <li>
+                        <a data-toggle-dia="sunday" href="#lineup-container">Domingo</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#info-container">Info</a>
+                  </li>
+                  <li>
+                    <a href="#suscribete-container">Suscribete</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+          <!-- /Menu -->
+
+          <!-- Tickets -->
+          <section id="tickets-action">
+            <div class="callout large text-center">
+              <a href="#">
+                <button class="hollow button large">
+                  Comprar Boletos
+                </button>
+              </a>
+            </div>
+          </section>
+          <!-- /Tickets -->
+
+          <!-- Lineup -->
+            <div id="lineup-container" data-magellan-target="lineup-container">
+              <h3 class="text-center">Lineup</h3>
+              <ul class="tabs text-center" id="lineup-tabs" data-tabs>
+                <li class="tabs-title is-active">
+                  <a href="#friday">Viernes</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#sartuday">Sábado</a>
+                </li>
+                <li class="tabs-title">
+                  <a href="#sunday">Domingo</a>
+                </li>
+              </ul>
+              <div class="tabs-content"  data-tabs-content="lineup-tabs">
+                <div class="tabs-panel is-active" id="friday">
+                  <div class="row">
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/guns-n-roses.jpg" alt="Gun's n' Roses">
+                          <figcaption class="orbit-caption">Gun's n' Roses</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/guns-n-roses.jpg" alt="Gun's n' Roses">
+                          <figcaption class="orbit-caption">Gun's n' Roses</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/guns-n-roses.jpg" alt="Gun's n' Roses">
+                          <figcaption class="orbit-caption">Gun's n' Roses</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/guns-n-roses.jpg" alt="Gun's n' Roses">
+                          <figcaption class="orbit-caption">Gun's n' Roses</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/guns-n-roses.jpg" alt="Gun's n' Roses">
+                          <figcaption class="orbit-caption">Gun's n' Roses</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/guns-n-roses.jpg" alt="Gun's n' Roses">
+                          <figcaption class="orbit-caption">Gun's n' Roses</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs-panel" id="sartuday">
+                  <div class="row">
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/metallica.jpg" alt="Metallica">
+                          <figcaption class="orbit-caption">Metallica</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/metallica.jpg" alt="Metallica">
+                          <figcaption class="orbit-caption">Metallica</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/metallica.jpg" alt="Metallica">
+                          <figcaption class="orbit-caption">Metallica</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/metallica.jpg" alt="Metallica">
+                          <figcaption class="orbit-caption">Metallica</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/metallica.jpg" alt="Metallica">
+                          <figcaption class="orbit-caption">Metallica</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/metallica.jpg" alt="Metallica">
+                          <figcaption class="orbit-caption">Metallica</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs-panel " id="sunday">
+                  <div class="row">
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/skillet.jpg" alt="Skillet">
+                          <figcaption class="orbit-caption">Skillet</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/skillet.jpg" alt="Skillet">
+                          <figcaption class="orbit-caption">Skillet</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/skillet.jpg" alt="Skillet">
+                          <figcaption class="orbit-caption">Skillet</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/skillet.jpg" alt="Skillet">
+                          <figcaption class="orbit-caption">Skillet</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/skillet.jpg" alt="Skillet">
+                          <figcaption class="orbit-caption">Skillet</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                        <div class="orbit-slide">
+                          <img class="orbit-image" src="img/skillet.jpg" alt="Skillet">
+                          <figcaption class="orbit-caption">Skillet</figcaption>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- /Lineup -->
+
+          <!-- Buy Tickets -->
+            <section id="tickets-container" data-magellan-target="tickets-container">
+              <h3 class="text-center">Compra Tu Boleto</h3>
+              <div class="row" data-equalizer data-equalize-on="small">
+                <div class="column small-12 medium-6 medium-offset-3">
+                  <ul class="pricing-table">
+                    <li class="title">Platino</li>
+                    <li class="price">$120.00</li>
+                    <li class="description">Acceso viernes, sábado y domingo</li>
+                    <li>2 bebidas por cada día</li>
+                    <li>Parqueadero incluid0 todos los días</li>
+                    <li>Participa de un sorteo para acceder al backstage</li>
+                    <li><a class="button" href="#">Comprar!</a></li>
+                  </ul>
+                </div>
+                <div class="column small-12 medium-4 medium-offset-2 ">
+                  <ul class="pricing-table">
+                    <li class="title">Gold</li>
+                    <li class="price">$90.00</li>
+                    <li class="description">Acceso viernes, sábado y domingo</li>
+                    <li data-equalizer-watch>1 bebidas por cada día gratis, podrás comprar más con un descuento de 30%</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li><a class="button" href="#">Comprar!</a></li>
+                  </ul>
+                </div>
+                <div class="column small-12 medium-4 ">
+                  <ul class="pricing-table">
+                    <li class="title">Silver</li>
+                    <li class="price">$65.00</li>
+                    <li class="description">Acceso viernes, sábado y domingo</li>
+                    <li data-equalizer-watch>Sin bebidas gratis</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li><a class="button" href="#">Comprar!</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          <!-- /Buy Tickets -->
+          <!-- Suscribete -->
+          <section id="suscribete-container" data-magellan-target="suscribete-container">
+            <h2 class="text-center">Suscribete</h2>
+            <h4 class="text-center"><small>Recibe las ultimas novedades del concierto</small></h4>
+            <form action="https://formspree.io/blasterpalooza@gmail.com" method="POST" novalidate data-abide>
+              <div data-abide-error class="row columns small-12 medium-6 text-center error-container" style="display: none;">
+                <p><i class="fi-alert"></i> Ingresó un correo electrónico no válido</p>
+              </div>
+              <div class="row columns small-12 medium-6">
+                <div class="input-group">
+                  <span class="input-group-label">
+                    <i class="fi-mail"></i>
+                  </span>
+                  <input type="email" name="email" placeholder="tu@correo.com" class="input-group-field" required>
+                  <div class="input-group-button"><input type="submit" value="Suscribirse" class="button bree"></div>
+                </div>
+              </div>
+            </form>
+          </section>
+          <!-- /Suscribete -->
+          <!-- Info -->
+          <section id="info-container" data-magellan-target="info-container">
+            <h3 class="text-center">Información</h3>
+            <div class="info-map" data-interchange="[map-small.html, small],[map.html, medium]"></div>
+          </section>
+          <!-- /Info -->
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
